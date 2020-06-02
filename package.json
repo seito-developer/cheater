@@ -19,6 +19,7 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
+    "sync": "browser-sync start --server --config bs-config.js",
     "build": "webpack --mode=production",
     "build:dev": "webpack --mode=development",
     "pug": "pug src/view -o dist -P",
