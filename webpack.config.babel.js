@@ -1,15 +1,16 @@
-// const path = require('path');
+const path = require('path');
 // import path from 'path';
 
-module.exports = [
-  {
+module.exports = {
     entry: {
       main: './src/assets/js/main.js',
       library: './src/assets/js/library.js'
+      // './src/assets/sass/style.sass'
     },
     devtool: 'source-map',
     output: {
-      path: `${__dirname}/dist/assets/js`,
+      // path: `${__dirname}/dist/assets/js`,
+      path: path.resolve(__dirname, 'dist/assets/js'),
       filename: '[name].js'
     },
     watch: true,
@@ -27,5 +28,4 @@ module.exports = [
           }
         ]
     }
-  }
-];
+};
