@@ -4,8 +4,7 @@
   "description": "development environment for easy web",
   "main": "index.js",
   "dependencies": {
-    "jquery": "^3.5.1",
-    "modernizr": "^3.11.2"
+    "jquery": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",

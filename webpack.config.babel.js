@@ -2,11 +2,14 @@
 // import path from 'path';
 
 module.exports = {
-    entry: './src/assets/js/main.js',
+    entry: {
+      main: './src/assets/js/main.js',
+      library: './src/assets/js/library.js'
+    },
     devtool: 'source-map',
     output: {
-      path: `${__dirname}/dist`,
-      filename: 'main.js'  
+      path: `${__dirname}/dist/assets/js`,
+      filename: '[name].js'
     },
     watch: true,
     module: {
