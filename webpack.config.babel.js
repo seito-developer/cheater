@@ -1,7 +1,8 @@
 // const path = require('path');
 // import path from 'path';
 
-module.exports = {
+module.exports = [
+  {
     entry: {
       main: './src/assets/js/main.js',
       library: './src/assets/js/library.js'
@@ -26,4 +27,5 @@ module.exports = {
           }
         ]
     }
-};
+  }
+];
