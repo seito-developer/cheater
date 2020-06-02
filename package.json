@@ -1,0 +1,21 @@
+{
+  "name": "template-easy-web",
+  "version": "1.0.0",
+  "description": "development environment for easy web",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "jquery": "^3.5.1",
+    "modernizr": "^3.11.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "pug": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seito",
+  "license": "MIT"
+}

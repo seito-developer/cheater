@@ -1,0 +1,28 @@
+.l-grid
+
+
+.l-header
+    @extend %u-clear
+    width: 100%
+    min-width: $size-max
+    z-index: $max-z
+    padding: 0 50px
+    position: fixed
+    top: 0
+    left: 0
+    transition: background-color $duration $easing
+
+    //追従時のスタイル
+    &.is-scrolling
+        background-color: #fff
+        box-shadow: 0 1px 0 #e5e5e5
+
+.l-foote
+
+.l-container
+    width: $size-max;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    position: relative;
